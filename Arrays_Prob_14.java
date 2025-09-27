@@ -1,3 +1,4 @@
+//Leet code problem no. 14 (Array)
 // Write a function to find the longest common prefix string amongst an array of strings.
 // If there is no common prefix, return an empty string "".
 
@@ -20,7 +21,7 @@ public class Arrays_Prob_14 {
         return FinalStr.toString();
 
     }
-
+    //Main Method
     public static void main(String[]args){
 
         String strs1[] = {"flower","flow","flight"};
