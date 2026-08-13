@@ -10,9 +10,9 @@ class Solution {
             else if(ch==')' || ch == ']' || ch =='}'){
                 if(stack.isEmpty()) return false;
                 char poppedChar = stack.pop();
-                if( poppedChar == '(' && s.charAt(i)!=')' 
-                || poppedChar == '[' && s.charAt(i)!=']'
-                || poppedChar == '{' && s.charAt(i)!='}')
+                if( poppedChar == '(' && ch !=')' 
+                || poppedChar == '[' && ch !=']'
+                || poppedChar == '{' && ch !='}')
                 {
                     return false;
                 }
